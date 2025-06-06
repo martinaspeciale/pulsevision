@@ -1,6 +1,6 @@
-# PulseVision
+# **Bachelor thesis project** - PulseVision
 
-**Bachelor thesis project** — PulseVision: AI-based blood pressure estimation from wrist images using Convolutional Neural Networks (CNNs)
+PulseVision: AI-based blood pressure estimation from wrist images using Convolutional Neural Networks (CNNs)
 
 This repository contains the code and materials developed for my Bachelor's thesis in Computer Engineering at the University of Pisa.
 
@@ -26,6 +26,21 @@ The deep learning model was implemented in **Python** with **TensorFlow** and **
 
 ## Repository Structure
 
+```
+pulsevision/
+├── bachelor_thesis/
+│   └── bachelor_thesis.pdf
+├── data/
+│   └── README.md  # data folder structure description
+├── notebooks/
+│   └── bp_estimation_cnn.ipynb
+├── scripts/
+│   ├── buildDataset.m
+│   ├── discretizeTargets.m
+├── requirements.txt
+├── README.md
+
+```
 - `notebooks/bp_estimation_cnn.ipynb` — Main notebook implementing the models described in the thesis (Base Model and Regularized Model), training and evaluation.
 - `scripts/` — MATLAB scripts used to build the dataset.
 - `data/` — Data folder (structure to be created as expected by `image_dataset_from_directory`).
